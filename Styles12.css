@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.xone {
+    background-color: ghostwhite;
+    color: #0f141e;
+    font-family:'Source Sans Pro', sans-serif;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+@media (max-width: 850px) {
+    .xone {
+        margin-left: 15px;
+    }
+}
+.info p {
+    color: darkgrey;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+ }
+.ava {
+     width: 150px;
+     border-radius: 25px;
+ }
+.info-sub {
+    margin-left: 40px;
+}
+.info-sub h4 {
+    margin-bottom: 10px;
+}
+.info-sub a {
+    color: darkslategray;
+    text-decoration: none;
+}
+.info-sub a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.info-sub a:active {
+    color: blue;
+}
+.mod {
+    background: red;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.bg-yellow {
+   background: #fff9dc;
+}
+.bg-blue {
+    background: #e6e6fa;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.social {
+    margin-bottom: 20px;
+}
+.social h4 {
+    margin-bottom: 5px;
+}
+.mod h2 {
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 5px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color:dimgray ;
+}
+.bg-red a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.bg-red a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: dimgray;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+}
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+.sub {
+    text-align: left;
+    background: #0f141e;
+    color: white;
+    font-family: inherit;
+    border: none;
+    padding: 5px 10px;
+    cursor: progress;
+}
+.sub:hover {
+    opacity: 0.9;
+}
+.fotb {
+    background: #dce3e6;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.fot {
+    background: #e6e6fa;
+    padding: 15px 40px;
+    border-radius: 60px;
+}
+.fot a {
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: dimgray;
+}
+.fot a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.fotb a {
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold
+}
+.fotb a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.fotb h1 {
+    text-align: center;
+    color: black;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.fotb > header h4 {
+    text-align: center;
+    color: darkgrey;
+    font-style: italic;
+    font-weight: bold;
+}
